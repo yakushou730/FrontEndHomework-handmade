@@ -1,4 +1,8 @@
 /* genral */
+section {
+  width: 100%;
+}
+
 .upperletter {
   text-transform: uppercase;
 }
@@ -25,7 +29,7 @@
   font-size: 8px;
   background-color: rgb(50,51,52);
   position: fixed;
-  padding: 15px;
+  padding: 15px 0;
 }
 
 #header .container {
@@ -38,4 +42,14 @@
 
 #phone {
   border-left: 1px solid rgb(160,161,162);
-}*/
+}
+
+#menu .container {
+  padding-top: 45px;
+}
+
+/* menu */
+#logo {
+  margin-top: 30px;
+  width: 180px;
+}
