@@ -1,5 +1,4 @@
 /* genral */
-
 .upperletter {
   text-transform: uppercase;
 }
@@ -17,11 +16,10 @@
 }
 
 .container {
-  color: rgb(160,161,162);
+  padding: 0 180px;
 }
 
 /* #header */
-
 #header {
   width: 100%;
   font-size: 8px;
@@ -31,16 +29,13 @@
 }
 
 #header .container {
-  padding: 0 180px;
+  color: rgb(160,161,162);
 }
-
-
 
 #contact div {
   padding: 0px 20px;
 }
 
 #phone {
-
   border-left: 1px solid rgb(160,161,162);
 }*/
