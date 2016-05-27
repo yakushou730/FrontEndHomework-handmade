@@ -1,0 +1,46 @@
+/* genral */
+
+.upperletter {
+  text-transform: uppercase;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  color: rgb(160,161,162);
+}
+
+/* #header */
+
+#header {
+  width: 100%;
+  font-size: 8px;
+  background-color: rgb(50,51,52);
+  position: fixed;
+  padding: 15px;
+}
+
+#header .container {
+  padding: 0 180px;
+}
+
+
+
+#contact div {
+  padding: 0px 20px;
+}
+
+#phone {
+
+  border-left: 1px solid rgb(160,161,162);
+}*/
