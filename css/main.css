@@ -45,11 +45,57 @@ section {
 }
 
 #menu .container {
-  padding-top: 45px;
+  padding-top: 65px;
 }
 
 /* menu */
 #logo {
-  margin-top: 30px;
   width: 180px;
 }
+
+.info {
+  padding: 8px 5px;
+  text-align: left;
+}
+
+.info-pic {
+  width: 40px;
+}
+
+.title-letter {
+  font-size: 10px;
+  color: rgb(39, 40, 43);
+}
+
+.info-letter {
+  font-size: 10px;
+  color: rgb(155, 156, 157);
+}
+
+.menu-list {
+  margin-top: 20px;
+  background-color: rgb(251, 194, 60) ;
+}
+
+#menu ul {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+#menu li {
+  float: left;
+  padding: 0 10px;
+  color: white;
+}
+
+#menu ul a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#menu ul li:nth-child(2n) {
+  color: rgb(252, 217, 122);
+}
+
