@@ -27,6 +27,10 @@ a {
   padding: 0 180px;
 }
 
+.descrip-color {
+  color: rgb(155, 156, 157);
+}
+
 /* #header */
 #header {
   width: 100%;
@@ -34,6 +38,7 @@ a {
   background-color: rgb(50,51,52);
   position: fixed;
   padding: 15px 0;
+  z-index: 1;
 }
 
 #header .container {
@@ -142,4 +147,75 @@ a {
   padding: 10px 0;
   background-color: rgb(251, 194, 60);
   border-radius: 3px;
+}
+
+/* welcometo */
+#welcometo .container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#welcometo .welcome-big-block {
+  position: relative;
+  margin-top: 60px;
+}
+
+#welcometo .welcome-pic {
+  width: 50%;
+}
+
+#welcometo .welcome-info {
+
+  text-align: left;
+  width: 48%;
+  padding: 30px 40px;
+  top: -350px;
+  left: 50px;
+}
+
+.welcome-pic img {
+  width: 100%;
+}
+
+.welcome-info {
+  position: relative;
+  border: 3px solid rgb(251, 194, 60);
+}
+
+.welcome-info .info-descrip {
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+.welcome-info .info-block {
+  margin-bottom: 20px;
+}
+
+.welcome-info img {
+  width: 40px;
+}
+
+.welcome-info > p {
+  margin: 0 0 20px;
+}
+
+.welcome-info p {
+  line-height: 150%;
+  font-size: 8px;
+}
+
+.welcome-info .left {
+  width: 10%;
+}
+
+.welcome-info .right {
+  width: 90%;
+}
+
+.welcome-info .right h3 , .welcome-info .right p {
+  margin: 0px 0px 5px 10px;
+}
+
+.welcome-info .right h3 {
+  font-size: 14px;
 }
