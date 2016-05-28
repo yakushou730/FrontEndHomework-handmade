@@ -3,6 +3,10 @@ section {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .upperletter {
   text-transform: uppercase;
 }
@@ -99,3 +103,43 @@ section {
   color: rgb(252, 217, 122);
 }
 
+/* #big-pic-start */
+
+#big-pic-start {
+  width: 100%;
+  height: 480px;
+  background-color: black;
+}
+
+#big-pic-start .pic-info {
+  text-align: left;
+  padding-top: 140px;
+  width: 650px;
+}
+
+#big-pic-start h1, #big-pic-start p, #big-pic-start div {
+  margin: 0px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#big-pic-start div.shortline {
+  display: block;
+  height: 2px;
+  width: 60px;
+  background-color: rgb(251, 194, 60)
+}
+
+#big-pic-start p.info-letter {
+  color: rgb(155, 156, 157);
+  line-height: 150%;
+}
+
+.link-btn {
+  text-align: center;
+  font-size: 8px;
+  width: 120px;
+  padding: 10px 0;
+  background-color: rgb(251, 194, 60);
+  border-radius: 3px;
+}
